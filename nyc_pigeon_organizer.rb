@@ -16,7 +16,6 @@ def nyc_pigeon_organizer(data)
       pigeons[item][:color] << key.to_s
     end
   end
-  
-end
   pigeons
+  
 end
