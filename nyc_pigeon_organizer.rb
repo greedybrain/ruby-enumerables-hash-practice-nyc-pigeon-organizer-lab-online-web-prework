@@ -1,3 +1,13 @@
+require 'pry'
+
 def nyc_pigeon_organizer(data)
-  # write your code here!
+  
+  pigeons = {}
+ 
+  data[:gender].each do |key, value|
+    value.map do | item |
+        pigeons[item] = {}
+    end
+  end
+  pigeons
 end
