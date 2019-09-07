@@ -9,6 +9,7 @@ def nyc_pigeon_organizer(data)
         pigeons[item] = {}
         pigeons[item][:color] = []
         pigeons[item][:gender] = []
+        pigeons[item][:lives] = []
     end
   end
   
