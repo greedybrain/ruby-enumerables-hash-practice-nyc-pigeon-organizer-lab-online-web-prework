@@ -8,6 +8,7 @@ def nyc_pigeon_organizer(data)
     value.map do | item |
         pigeons[item] = {}
         pigeons[item][:color] = []
+        pigeons[item][:gender] = []
     end
   end
   
