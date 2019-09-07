@@ -10,5 +10,11 @@ def nyc_pigeon_organizer(data)
         pigeons[item][:color] = []
     end
   end
+  
+  data[:color].each do |key, value|
+    value.map do |item|
+        pigeons[item][:color] << key.to_s
+    end
+end
   pigeons
 end
