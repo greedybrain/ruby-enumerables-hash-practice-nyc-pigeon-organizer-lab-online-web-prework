@@ -7,6 +7,7 @@ def nyc_pigeon_organizer(data)
   data[:gender].each do |key, value|
     value.map do | item |
         pigeons[item] = {}
+        pigeons[item][:color] = []
     end
   end
   pigeons
